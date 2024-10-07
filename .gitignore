@@ -1,0 +1,49 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment directory
+venv/
+acl/
+env/
+.acl/
+.venv/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+
+# Environment variables file
+.env
+example.env
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# uagents storage files
+storage/
+*.json
+
+# Python package files
+*.egg-info/
+dist/
+build/
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Pytest cache
+.pytest_cache/
+
+# MacOS specific files
+.DS_Store

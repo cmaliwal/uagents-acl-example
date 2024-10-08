@@ -2,7 +2,7 @@ import os
 from uagents.setup import fund_agent_if_low
 from uagents import Agent, Context, Model, Protocol
 from uagents.models import ErrorMessage
-from acl import ACL
+from pkg.acl import ACL
 
 AGENT_SEED = os.getenv("AGENT_SEED", "acl-test-agent")
 
